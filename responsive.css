@@ -1,0 +1,109 @@
+@media screen and (max-width:900px){
+    html{
+        font-size: 8px;
+    }
+.about-login {
+    justify-content: center;
+    
+}
+a{
+    display: block;
+}
+a[class="active"] ,a[class="top-link"]:hover {
+    font-size: 15px;
+    padding: 10px 10px;
+    color: #ffbf00;
+    border-radius: 5px;
+    background-color: white;
+}
+}
+@media screen and (max-width:800px){
+    html{
+        font-size: 6px;
+    }
+    .movies::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+}
+nav {
+    gap:1px;
+}
+.projects::-webkit-scrollbar{
+    display:None;}
+/*responsive header*/
+.sidebaropenlabel {
+    height: 25px;
+    width: 30px;
+    display: block;
+    z-index: 10;
+    cursor: pointer;
+}
+div[class^= "spinner"] {
+    display: block;
+    height: 4px;
+    background-color: #ffbf00;
+    transition : all .5s;
+   
+}
+.spinner.bottom, .spinner.mid {
+    margin-top:6px;
+}
+#sidebaropen:checked ~ .sidebaropenlabel > .spinner.mid {
+    opacity: 0;
+    transition : all .5s;
+}
+#sidebaropen:checked ~ .sidebaropenlabel > .spinner.top {
+    transform: rotatez(135deg);
+    margin-top:13px;
+    transition : all .5s;
+}
+#sidebaropen:checked ~ .sidebaropenlabel > .spinner.bottom {
+    transform: rotatez(-135deg);
+    margin-top: -13px;
+    transition : all .5s;
+}
+#sidebaropen {
+    position: absolute;
+    left: -999px;
+    
+}
+.left-head {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: all 0.5s ease 0s;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-head ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 0;
+    
+
+}
+.left-head ul li {
+    padding: 10px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+}
+#sidebaropen:checked ~ .left-head {
+    left: 0px;
+    transition : all .5s;
+}
+}
+/* @media screen and (max-width:500px){
+    html{
+        font-size: 4px;
+    }
+} */
+
+
