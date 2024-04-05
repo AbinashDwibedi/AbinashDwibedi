@@ -375,16 +375,9 @@ a[class="top-link"]:hover {
     padding: 0 0.6rem;
 }
 
-.fa-facebook:hover {
-    color: #4747ff;
-}
-
-.fa-youtube:hover {
-    color: rgb(255, 0, 0);
-}
-
-.fa-instagram:hover {
-    color: rgb(255, 0, 157);
+.social:hover {
+    color: #febe00;
+    transition: all .3s linear;
 }
 
 .link-logo:hover {
@@ -496,17 +489,6 @@ a[class="top-link"]:hover {
     padding: 0 0.6rem;
 }
 
-.fa-facebook:hover {
-    color: #4747ff;
-}
-
-.fa-youtube:hover {
-    color: rgb(255, 0, 0);
-}
-
-.fa-instagram:hover {
-    color: rgb(255, 0, 157);
-}
 
 .link-logo:hover {
     background-color: var(--text-color-1);
