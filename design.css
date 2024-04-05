@@ -309,6 +309,18 @@ a[class="top-link"]:hover {
     width: 25em;
     background: #febe00;
     bottom: 16em;
+    animation: background-c 6s linear .3s infinite forwards;
+}
+@keyframes background-c{
+    0% {
+        background-color: #febe00;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: #febe00;
+    }
 }
 .img-back::after{
     content: '';
