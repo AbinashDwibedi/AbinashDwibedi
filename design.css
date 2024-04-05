@@ -112,7 +112,7 @@ body {
     position: absolute;
     height: 30px;
     width: 30px;
-    background-image: url(/pngegg.png);
+    background-image: url(pngegg.png);
     background-size: cover;
     pointer-events: none;
     border-radius: 50%;
