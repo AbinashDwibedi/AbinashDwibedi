@@ -108,7 +108,32 @@ body {
 .loader-box4 {
     animation-delay: 1s;
 }
-
+.inner-cursor{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-image: url(/pngegg.png);
+    background-size: cover;
+    pointer-events: none;
+    border-radius: 50%;
+    z-index: 40;
+    inset: 2px;
+    mix-blend-mode: difference;
+    background-color: red;
+    animation: rotate-in 1s linear .3s infinite forwards ;
+}
+.outer-cursor{
+    border: 3px solid red;
+    mix-blend-mode: difference;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    pointer-events: none;
+    border-radius: 50%;
+    z-index: 40;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotateZ(200deg);
+}
 @keyframes animate {
     0% {
         height: 10px;
