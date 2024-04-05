@@ -313,7 +313,7 @@ a[class="top-link"]:hover {
 }
 .img-back::after{
     content: '';
-    background-image: url(/PngItem_174708.png);
+    background-image: url(PngItem_174708.png);
     height: 23em;
     width: 23em;
     position: absolute;
