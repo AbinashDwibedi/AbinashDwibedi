@@ -208,7 +208,7 @@ a[class="top-link"]:hover {
     min-height: calc(100vh + 3px);
     background-attachment: local;
     background-size: cover;
-    padding: 2em;
+    padding: 1em;
     /* text-align: center; */
     background-blend-mode: darken;
     background-color: #00000078;
