@@ -279,13 +279,11 @@ a[class="top-link"]:hover {
     height: 45em;
     border-radius: 100%;
     z-index: 2;
-    /* border: 4px solid var(--text-color-1); */
     filter: drop-shadow(0px 0px 8rem white);
     animation: DropShadow 2s linear infinite .1s;
-    /* position: absolute; */
-    margin-top: 24em;
+    position: absolute;
+    bottom: -22em;
 }
-
 @keyframes DropShadow {
     0% {
         filter: drop-shadow(0px 0px 1rem black);
@@ -306,10 +304,11 @@ a[class="top-link"]:hover {
     align-items: center;
     justify-content: center;
     margin-bottom: 2em;
-    position: relative;
+    position: absolute;
     height: 25em;
     width: 25em;
     background: #febe00;
+    bottom: 16em;
 }
 .img-back::after{
     content: '';
