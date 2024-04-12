@@ -23,15 +23,14 @@
 // ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 // ScrollTrigger.refresh();
 
-// let innercursor = document.querySelector(".inner-cursor");
-// let outercursor = document.querySelector(".outer-cursor");
-// document.addEventListener("mousemove",(e)=>{
-//     let xCor = e.clientX;
-//     let yCor = e.clientY;
-//     outercursor.style.left = `${xCor}px`;
-//     outercursor.style.top = `${yCor}px`;
-// })
-
+let innercursor = document.querySelector(".inner-cursor");
+let outercursor = document.querySelector(".outer-cursor");
+document.addEventListener("mousemove",(e)=>{
+    let xCor = e.clientX;
+    let yCor = e.clientY;
+    outercursor.style.left = `${xCor}px`;
+    outercursor.style.top = `${yCor}px`;
+})
 
 //random colours in the websites on each and every loading
 function randomColor() {
@@ -80,23 +79,6 @@ else {
     newVal = 12 - (value * per10px)
     document.querySelector(".intro").style.fontSize = `${newVal}px`;
 }
-// setTimeout(() => {
-    document.querySelector(".img-back").insertAdjacentHTML("afterbegin",`<div class="right-eye">
-<div class="shut shut-left">
-  <span></span>
-</div>
-<div class="ball">
-</div>
-</div>`);
-document.querySelector(".img-back").insertAdjacentHTML("beforeend",`<div class="left-eye">
-<div class="shut">
-<span></span>
-</div>
-<div class="ball">
-</div>
-</div>`)
-// },8000)
-
 
 if (width < 800) {
     document.querySelector(".intro").remove();
@@ -129,11 +111,6 @@ if (width < 800) {
 //     let c = Math.ceil(0 + Math.random() * 255);
 //     return `rgb(${a},${b},${c})`
 // }
-// setInterval(() => {
-//     document.querySelectorAll(".small-circle").forEach((e)=>{
-//         e.style.background = randomColor();
-//     })
-// }, 500);
 
 setTimeout(() => {
     loading.innerHTML = "Loading"

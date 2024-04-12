@@ -113,22 +113,22 @@ body {
 .loader-box4 {
     animation-delay: 1s;
 }
-/* .inner-cursor{
+.inner-cursor{
     position: absolute;
     height: 30px;
     width: 30px;
-    background-image: url(pngegg.png);
+    /* background-image: url(pngegg.png); */
     background-size: cover;
     pointer-events: none;
     border-radius: 50%;
     z-index: 40;
     inset: 2px;
     mix-blend-mode: difference;
-    background-color: red;
+    background-color: rgb(243, 243, 236);
     animation: rotate-in 1s linear .3s infinite forwards ;
 }
 .outer-cursor{
-    border: 3px solid red;
+    border: 3px solid rgb(255, 255, 255);
     mix-blend-mode: difference;
     position: fixed;
     height: 40px;
@@ -138,7 +138,7 @@ body {
     z-index: 40;
     transform: translate(-50%, -50%);
     transform: translate(-50%, -50%) rotateZ(200deg);
-} */
+}
 @keyframes animate {
     0% {
         height: 10px;
@@ -252,131 +252,7 @@ a[class="top-link"]:hover {
     overflow: hidden;
 }
 
-  .right-eye{
-    height: 10em;
-    width: 16em;
-    position: absolute;
-    top: 8%;
-    left: -39%;
-    transform: translate(-50%, -50%) rotate(347deg);
-    border-radius: 1% 82% 3% 76%;
-    overflow: hidden;
-    background-color: white;
-  }
-  
-  
-  .left-eye{
-    height: 10em;
-    width: 16em;
-    position: absolute;
-    top: 8%;
-    left: 140%;
-    transform: translate(-50%, -50%) rotate(13deg);
-    border-radius: 82% 1% 76% 3%;
-    overflow: hidden;
-    background-color: white;
-  }
-  .ball{
-    width: 7.5em;
-    height: 7.5em;
-    background: rgb(255, 0, 0);
-    border-radius: 50%;
-    border: .5em solid rgb(0 0 0);
-    position: absolute;
-    top: 50%;
-    left: 51%;
-    transform: translate(-50%, -50%);
-    background-image: url(pngegg.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: rotate-in-1 2s linear .1S infinite forwards;
-  }
 
-  @keyframes rotate-in-1 {
-    0%{
-      transform: translate(-50%, -50%) rotate(0deg);
-    }
-    100%{
-      transform: translate(-50%, -50%) rotate(360deg);
-    }
-  }
-  @keyframes openClose {
-    0%{
-        height: 100%;
-    }
-    100%{
-        height: 0%;
-    }
-  }
-  .shut{
-    width: 26em;
-    height: 20em;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%) rotate(332deg);
-    z-index: 100;
-  }
-  .shut-left{
-    transform: translate(-50%, -50%) rotate(28deg);
-
-  }
-  
-  .shut span{
-    display: block;
-    width: 100%;
-    height: 15%;
-    background: #000000;
-    border-radius: 0 0 60% 60%;
-    transition: 0.4s all; 
-    animation: openClose 2s linear .1S infinite forwards alternate-reverse;
-  }
-  
-  /* .right-eye:hover >.shut span , 
-  .left-eye:hover >.shut span{
-    height:100%;
-  } */
-
-
-/* .side-deco{
-    position: absolute;
-    top: 0;
-    width: .6em;
-    background-color: var(--uni-color-1);
-    border-radius: 20rem;
-}
-.deco-1{
-    height: 25em;
-    right: 4em;
-}
-.deco-2{
-    height: 23em;
-    right: 7em;
-}
-.deco-3{
-    height: 21em;
-    right: 10em;
-    
-} */
-
-/* 
-.side-deco::after{
-    content: '';
-    background-color: var(--uni-color-1);
-    background-image: url(pngegg.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 3em;
-    width: 3em;
-    position: absolute;
-    bottom: -1em;
-    right: -1.4em;
-    border-radius: 23em;
-    animation: rotate-in 1s linear .2s infinite forwards;
-    border: 2px solid black;
-} */
 .intro-left{
     width: 35%;
     display: flex;
@@ -409,7 +285,7 @@ a[class="top-link"]:hover {
     filter: drop-shadow(0px 0px 8rem white);
     animation: DropShadow 2s linear infinite .1s;
     position: absolute;
-    bottom: -22em;
+    bottom: -24em;
 }
 @keyframes DropShadow {
     0% {
@@ -435,7 +311,7 @@ a[class="top-link"]:hover {
     height: 25em;
     width: 25em;
     background: var(--uni-color-1);
-    bottom: 16em;
+    bottom: 18em;
     animation: background-c 6s linear .3s infinite forwards;
 }
 @keyframes background-c{
@@ -640,25 +516,15 @@ a[class="top-link"]:hover {
     width: 100%;
 }
 .small-circle {
-    height: 3rem;
-    width: 3rem;
+    height: 6rem;
+    position: relative;
+    width: 2rem;
     background: black;
     border-radius: 2rem;
     z-index: 2;
     border: 0.3rem solid var(--uni-color-1);
+    margin: 0 1rem;
 }
-
-.any-heading-title::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 0.3rem;
-    background-color: var(--uni-color-1);
-    left: 0;
-    top: calc(50% - 0.1rem);
-    z-index: 1;
-}
-
 
 .experiences {
     display: flex; 
