@@ -56,11 +56,11 @@ function randomColor() {
 let documentElement = document.documentElement;
 documentElement.style.setProperty("--uni-color-1",randomColor() )
 document.querySelector(".cl-change").style.color = randomColor();
-let headingMain = document.querySelector(".heading-main");
-headingMain.style.color = randomColor();
-let txtSdw = randomColor();
-headingMain.style.textShadow = `5px 5px 1px txtSdw`;
-
+document.querySelector(".heading-main").style.color = randomColor();
+let clrs = randomColor();
+Array.from(document.querySelectorAll(".side-deco")).forEach(e =>{
+    e.style.background = clrs;
+});
 
 let loadBox = document.querySelectorAll(".loader-boxs");
 let loader = document.querySelector(".loader");
