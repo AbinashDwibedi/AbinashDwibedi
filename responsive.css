@@ -12,7 +12,7 @@ a{
 a[class="active"] ,a[class="top-link"]:hover {
     font-size: 15px;
     padding: 10px 10px;
-    color: #ffbf00;
+    color: var(--uni-color-1);
     border-radius: 5px;
     background-color: white;
 }
@@ -41,7 +41,7 @@ nav {
 div[class^= "spinner"] {
     display: block;
     height: 4px;
-    background-color: #ffbf00;
+    background-color: var(--uni-color-1);
     transition : all .5s;
    
 }
