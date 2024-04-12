@@ -252,6 +252,7 @@ a[class="top-link"]:hover {
     top: 0;
     width: .6em;
     background-color: var(--uni-color-1);
+    border-radius: 20rem;
 }
 .deco-1{
     height: 25em;
@@ -264,17 +265,25 @@ a[class="top-link"]:hover {
 .deco-3{
     height: 21em;
     right: 10em;
+    
 }
+
+
 .side-deco::after{
     content: '';
     background-color: var(--uni-color-1);
-    height: 2em;
-    width: 2em;
+    background-image: url(pngegg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 3em;
+    width: 3em;
     position: absolute;
-    bottom: -3px;
-    right: -.75em;
-    border-radius: 23em 23em 23em 0;
-    transform: rotateZ(310deg);
+    bottom: -1em;
+    right: -1.4em;
+    border-radius: 23em;
+    animation: rotate-in 1s linear .2s infinite forwards;
+    border: 2px solid black;
 }
 .intro-left{
     width: 35%;
@@ -560,12 +569,13 @@ a[class="top-link"]:hover {
 
 
 .experiences {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: flex; 
     padding: .5rem;
-    flex-direction: column;
     overflow: hidden;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    place-content: center;
 }
 
 .experience-div {
@@ -574,7 +584,11 @@ a[class="top-link"]:hover {
     justify-content: center;
     overflow: hidden;
     margin: 10px;
-
+    flex-direction: column;
+    flex: 0 1 31rem;
+    /* border: 3px solid var(--uni-color-1); */
+    border-radius: 4rem;
+    padding:2rem 1rem;
 }
 
 .logo {
@@ -585,7 +599,7 @@ a[class="top-link"]:hover {
 .experience-about {
     padding: 5px 14px;
     color: var(--uni-color-1);
-    text-align: right;
+    text-align: center;
     font-size: 1.2rem;
     line-height: 2rem;
 }

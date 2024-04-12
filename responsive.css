@@ -19,7 +19,7 @@ a[class="active"] ,a[class="top-link"]:hover {
 }
 @media screen and (max-width:800px){
     html{
-        font-size: 6px;
+        font-size: 7px;
     }
     .movies::-webkit-scrollbar {
     display: none;

@@ -1,27 +1,27 @@
 
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('body'),
-    smooth: true
-});
-gsap.registerPlugin(ScrollTrigger);
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('body'),
+//     smooth: true
+// });
+// gsap.registerPlugin(ScrollTrigger);
 
-const locoScroll = new LocomotiveScroll({
-    el: document.querySelector("body"),
-    smooth: true
-});
-locoScroll.on("scroll", ScrollTrigger.update);
+// const locoScroll = new LocomotiveScroll({
+//     el: document.querySelector("body"),
+//     smooth: true
+// });
+// locoScroll.on("scroll", ScrollTrigger.update);
 
-ScrollTrigger.scrollerProxy("body", {
-    scrollTop(value) {
-        return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
-    },
-    getBoundingClientRect() {
-        return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
-    },
-    pinType: document.querySelector("body").style.transform ? "transform" : "fixed"
-});
-ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
-ScrollTrigger.refresh();
+// ScrollTrigger.scrollerProxy("body", {
+//     scrollTop(value) {
+//         return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
+//     },
+//     getBoundingClientRect() {
+//         return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
+//     },
+//     pinType: document.querySelector("body").style.transform ? "transform" : "fixed"
+// });
+// ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+// ScrollTrigger.refresh();
 
 // let innercursor = document.querySelector(".inner-cursor");
 // let outercursor = document.querySelector(".outer-cursor");
@@ -222,10 +222,24 @@ document.addEventListener("scroll", () => {
     }
 })
 
+let experienceTimeline = gsap.timeline();
 
-gsap.from(".left .experience-about", {
-    x: 1000,
+
+experienceTimeline.from(".logo",{
+    x: -100,
     stagger: 1,
+    duration: 1,
+    opacity: 0,
+    scrollTrigger: {
+        trigger: ".experiences",
+        scroll: "body",
+        start: "top 70%", end: "bottom 80%",
+        scrub: true
+    }
+})
+experienceTimeline.from(".experience-about",{
+    y: 100,
+    stagger:1 ,
     duration: 1,
     opacity: 0,
     scrollTrigger: {
@@ -235,67 +249,46 @@ gsap.from(".left .experience-about", {
         scrub: true
     }
 })
-gsap.from(".left .logo", {
-    x: -1000,
+experienceTimeline.from(".experience .ex-range",{
+    x: -500,
     stagger: 1,
     duration: 1,
     opacity: 0,
     scrollTrigger: {
         trigger: ".experiences",
         scroll: "body",
-        start: "top 60%", end: "bottom 90%",
-        scrub: true
-    }
-})
-gsap.from(".left .experience .ex-range", {
-    width: -0,
-    stagger: 1,
-    duration: 1,
-    opacity: 0,
-    scrollTrigger: {
-        trigger: ".experiences",
-        scroll: "body",
-        start: "top 60%", end: "bottom 90%",
+        start: "top 50%", end: "bottom 90%",
         scrub: true
     }
 })
 
-gsap.from(".right .experience-about", {
-    x: -1000,
-    stagger: 1,
-    duration: 1,
-    opacity: 0,
-    scrollTrigger: {
-        trigger: ".experiences",
-        scroll: "body",
-        start: "top 60%", end: "bottom 90%",
-        scrub: true
-    }
-})
-gsap.from(".right .logo", {
-    x: 1000,
-    stagger: 1,
-    duration: 1,
-    opacity: 0,
-    scrollTrigger: {
-        trigger: ".experiences",
-        scroll: "body",
-        start: "top 60%", end: "bottom 90%",
-        scrub: true
-    }
-})
-gsap.from(".right .experience .ex-range", {
-    width: 0,
-    stagger: 1,
-    duration: 1,
-    opacity: 0,
-    scrollTrigger: {
-        trigger: ".experiences",
-        scroll: "body",
-        start: "top 60%", end: "bottom 90%",
-        scrub: true
-    }
-})
+
+// gsap.from("", {
+//     x: -1000,
+//     stagger: 1,
+//     duration: 1,
+//     opacity: 0,
+//     scrollTrigger: {
+//         trigger: ".experiences",
+//         scroll: "body",
+//         start: "top 60%", end: "bottom 90%",
+//         scrub: true
+//     }
+// })
+// gsap.from("", {
+//     width: -0,
+//     stagger: 1,
+//     duration: 1,
+//     opacity: 0,
+//     scrollTrigger: {
+//         trigger: ".experiences",
+//         scroll: "body",
+//         start: "top 60%", end: "bottom 90%",
+//         scrub: true
+//     }
+// })
+
+
 
 gsap.from(".project", {
     y: -100,
