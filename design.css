@@ -7,6 +7,10 @@
     font-family: new-2;
     src: url("Hackdaddy.otf");
 }
+@font-face {
+    font-family: new-3;
+    src: url("NinjaNaruto-YOn4.ttf");
+}
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -405,7 +409,7 @@ a[class="top-link"]:hover {
 .heading-main {
     color: #a9f100;
     font-size: 3.5em;
-    font-family: new-1;
+    font-family: new-3;
     position: absolute;
     width: 55%;
     z-index: 5;
