@@ -38,22 +38,28 @@ function randomColor() {
     let a = Math.ceil(0 + Math.random() * 255);
     let b = Math.ceil(0 + Math.random() * 255);
     let c = Math.ceil(0 + Math.random() * 255);
-    if(a>b && a>c){
+    if(a<b && a<c){
         a=0;
+        b=255;
     }
-    else if(b>a && b>c){
+    else if(b<a && b<c){
         b=0;
+        c=255;
     }
-    else if(c>a && c>b){
+    else if(c<a && c<b){
         c=0;
+        a=255;
     }
     return `rgb(${a},${b},${c})`
 }
 
 let documentElement = document.documentElement;
 documentElement.style.setProperty("--uni-color-1",randomColor() )
-
-
+document.querySelector(".cl-change").style.color = randomColor();
+let headingMain = document.querySelector(".heading-main");
+headingMain.style.color = randomColor();
+let txtSdw = randomColor();
+headingMain.style.textShadow = `5px 5px 1px txtSdw`;
 
 
 let loadBox = document.querySelectorAll(".loader-boxs");

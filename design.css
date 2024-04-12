@@ -404,7 +404,7 @@ a[class="top-link"]:hover {
     right: -2em;
     top: 35%;
     line-height: 1.6em;
-    text-shadow: 5px 5px 1px red;
+    /* text-shadow: 5px 5px 1px red; */
 }
 
 .social {
