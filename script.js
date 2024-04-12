@@ -38,6 +38,15 @@ function randomColor() {
     let a = Math.ceil(0 + Math.random() * 255);
     let b = Math.ceil(0 + Math.random() * 255);
     let c = Math.ceil(0 + Math.random() * 255);
+    if(a>b && a>c){
+        a=0;
+    }
+    else if(b>a && b>c){
+        b=0;
+    }
+    else if(c>a && c>b){
+        c=0;
+    }
     return `rgb(${a},${b},${c})`
 }
 
