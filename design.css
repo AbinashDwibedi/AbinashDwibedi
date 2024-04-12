@@ -18,7 +18,7 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 23px;
-    background-color: var(--text-color-1);
+    background-color: var(--uni-color-1);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -33,7 +33,7 @@ html {
 }
 :root{
     --body-background : linear-gradient(to left top, rgb(8 9 12), #08090c);
-    --text-color-1: #ffbf00;
+    --uni-color-1: RGB(0, 255, 0);
 }
 * {
     margin: 0;
@@ -109,7 +109,7 @@ body {
 .loader-box4 {
     animation-delay: 1s;
 }
-.inner-cursor{
+/* .inner-cursor{
     position: absolute;
     height: 30px;
     width: 30px;
@@ -134,7 +134,7 @@ body {
     z-index: 40;
     transform: translate(-50%, -50%);
     transform: translate(-50%, -50%) rotateZ(200deg);
-}
+} */
 @keyframes animate {
     0% {
         height: 10px;
@@ -201,7 +201,7 @@ nav {
 a[class="active"] {
     font-size: 15px;
     padding: 10px 10px;
-    color: var(--text-color-1);
+    color: var(--uni-color-1);
     border-radius: 5px;
 }
 
@@ -214,7 +214,7 @@ a[class="top-link"] {
 
 a[class="top-link"]:hover {
 
-    color: var(--text-color-1);
+    color: var(--uni-color-1);
     border-radius: 5px;
 }
 
@@ -242,7 +242,7 @@ a[class="top-link"]:hover {
     justify-content: center;
     align-items: center;
     /* flex-direction: column; */
-    border-bottom: 3px solid var(--text-color-1);
+    border-bottom: 3px solid var(--uni-color-1);
     font-size: 12px;
     gap: 2%;
     overflow: hidden;
@@ -251,7 +251,7 @@ a[class="top-link"]:hover {
     position: absolute;
     top: 0;
     width: .6em;
-    background-color: #febe00;
+    background-color: var(--uni-color-1);
 }
 .deco-1{
     height: 25em;
@@ -267,7 +267,7 @@ a[class="top-link"]:hover {
 }
 .side-deco::after{
     content: '';
-    background-color: #febe00;
+    background-color: var(--uni-color-1);
     height: 2em;
     width: 2em;
     position: absolute;
@@ -316,7 +316,7 @@ a[class="top-link"]:hover {
     }
 
     50% {
-        filter: drop-shadow(0px 0px 1rem yellow);
+        filter: drop-shadow(0px 0px 1rem var(--uni-color-1));
     }
 
     100% {
@@ -333,19 +333,19 @@ a[class="top-link"]:hover {
     position: absolute;
     height: 25em;
     width: 25em;
-    background: #febe00;
+    background: var(--uni-color-1);
     bottom: 16em;
     animation: background-c 6s linear .3s infinite forwards;
 }
 @keyframes background-c{
     0% {
-        background-color: #febe00;
+        background-color: var(--uni-color-1);
     }
     50%{
         background-color: red;
     }
     100%{
-        background-color: #febe00;
+        background-color: var(--uni-color-1);
     }
 }
 .img-back::after{
@@ -372,7 +372,7 @@ a[class="top-link"]:hover {
 
 .heading-para {
     font-size: 1.3em;
-    color: var(--text-color-1);
+    color: var(--uni-color-1);
     line-height: 1.5em;
 }
 .heading-para ,.experience-about{
@@ -389,7 +389,7 @@ a[class="top-link"]:hover {
     margin: 1.2em 0px;
     padding: 1em 1.6em;
     border-radius: 3em;
-    border-bottom: 2px solid #febe00;
+    border-bottom: 2px solid var(--uni-color-1);
     background: #0a0c11;
 }
 
@@ -413,12 +413,12 @@ a[class="top-link"]:hover {
 }
 
 .social:hover {
-    color: #febe00;
+    color: var(--uni-color-1);
     transition: all .3s linear;
 }
 
 .link-logo:hover {
-    background-color: var(--text-color-1);
+    background-color: var(--uni-color-1);
 }
 /* for mobile phones */
 
@@ -440,31 +440,18 @@ a[class="top-link"]:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-bottom: 3px solid var(--text-color-1);
+    border-bottom: 3px solid var(--uni-color-1);
 }
 
 .heading-logo-mobile {
     height: 170px;
     border-radius: 100%;
     z-index: 2;
-    border: 4px solid var(--text-color-1);
+    border: 4px solid var(--uni-color-1);
     filter: drop-shadow(0px 0px 8rem white);
     animation: DropShadow 2s linear infinite .1s;
 }
-
-@keyframes DropShadow {
-    0% {
-        filter: drop-shadow(0px 0px 1rem black);
-    }
-
-    50% {
-        filter: drop-shadow(0px 0px 1rem yellow);
-    }
-
-    100% {
-        filter: drop-shadow(0px 0px 1rem black);
-    }
-}
+/* for mobile phones */
 
 .img-back-mobile {
     height: 170px;
@@ -493,7 +480,7 @@ a[class="top-link"]:hover {
     /* margin-top: 32px; */
     padding: 0px 20px;
     font-size:13px;
-    color: var(--text-color-1);
+    color: var(--uni-color-1);
     line-height: 20px;
 }
 .heading-para-mobile ,.experience-about{
@@ -511,12 +498,12 @@ a[class="top-link"]:hover {
     margin: 12px 0px;
     padding: 10px 16px;
     border-radius: 30px;
-    border-bottom: 2px solid #febe00;
+    border-bottom: 2px solid var(--uni-color-1);
     background: #0a0c11;
 }
 
 .heading-main-mobile {
-    color: yellow;
+    color: var(--uni-color-1);
     font-size: 25px;
     font-family: new-1;
 }
@@ -528,7 +515,7 @@ a[class="top-link"]:hover {
 
 
 .link-logo:hover {
-    background-color: var(--text-color-1);
+    background-color: var(--uni-color-1);
 }
 
 /* headings */
@@ -538,7 +525,7 @@ a[class="top-link"]:hover {
     padding: 1rem;
     border-radius: 3rem;
     z-index: 2;
-    border: 0.3rem solid #febe00;
+    border: 0.3rem solid var(--uni-color-1);
     font-size: 3.5rem;
     font-family: 'Russo One', sans-serif;
 }
@@ -557,7 +544,7 @@ a[class="top-link"]:hover {
     background: black;
     border-radius: 2rem;
     z-index: 2;
-    border: 0.3rem solid #febe00;
+    border: 0.3rem solid var(--uni-color-1);
 }
 
 .any-heading-title::before {
@@ -565,7 +552,7 @@ a[class="top-link"]:hover {
     position: absolute;
     width: 100%;
     height: 0.3rem;
-    background-color: #febe00;
+    background-color: var(--uni-color-1);
     left: 0;
     top: calc(50% - 0.1rem);
     z-index: 1;
@@ -597,7 +584,7 @@ a[class="top-link"]:hover {
 
 .experience-about {
     padding: 5px 14px;
-    color: var(--text-color-1);
+    color: var(--uni-color-1);
     text-align: right;
     font-size: 1.2rem;
     line-height: 2rem;
@@ -627,7 +614,7 @@ a[class="top-link"]:hover {
 
 .project-head,.my-experiences {
     margin-left: 1rem;
-    border-left: 0.5rem solid rgb(255, 191, 0);
+    border-left: 0.5rem solid var(--uni-color-1);
     font-size: 2.5rem;
     margin-top: 2rem;
     padding-left: 1rem;
@@ -687,7 +674,7 @@ a[class="top-link"]:hover {
     background-color: red;
 }
 .project {
-    border: .3rem solid rgb(255, 193, 7);
+    border: .3rem solid var(--uni-color-1);
     background-color: rgb(0, 0, 0);
     margin: 1rem .5rem;
     border-radius: 23px;

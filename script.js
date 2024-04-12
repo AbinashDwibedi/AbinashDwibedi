@@ -23,14 +23,14 @@ ScrollTrigger.scrollerProxy("body", {
 ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 
-let innercursor = document.querySelector(".inner-cursor");
-let outercursor = document.querySelector(".outer-cursor");
-document.addEventListener("mousemove",(e)=>{
-    let xCor = e.clientX;
-    let yCor = e.clientY;
-    outercursor.style.left = `${xCor}px`;
-    outercursor.style.top = `${yCor}px`;
-})
+// let innercursor = document.querySelector(".inner-cursor");
+// let outercursor = document.querySelector(".outer-cursor");
+// document.addEventListener("mousemove",(e)=>{
+//     let xCor = e.clientX;
+//     let yCor = e.clientY;
+//     outercursor.style.left = `${xCor}px`;
+//     outercursor.style.top = `${yCor}px`;
+// })
 
 let loadBox = document.querySelectorAll(".loader-boxs");
 let loader = document.querySelector(".loader");
