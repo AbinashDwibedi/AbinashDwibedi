@@ -1,36 +1,36 @@
 
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('body'),
-    smooth: true
-});
-gsap.registerPlugin(ScrollTrigger);
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('body'),
+//     smooth: true
+// });
+// gsap.registerPlugin(ScrollTrigger);
 
-const locoScroll = new LocomotiveScroll({
-    el: document.querySelector("body"),
-    smooth: true
-});
-locoScroll.on("scroll", ScrollTrigger.update);
+// const locoScroll = new LocomotiveScroll({
+//     el: document.querySelector("body"),
+//     smooth: true
+// });
+// locoScroll.on("scroll", ScrollTrigger.update);
 
-ScrollTrigger.scrollerProxy("body", {
-    scrollTop(value) {
-        return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
-    },
-    getBoundingClientRect() {
-        return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
-    },
-    pinType: document.querySelector("body").style.transform ? "transform" : "fixed"
-});
-ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
-ScrollTrigger.refresh();
+// ScrollTrigger.scrollerProxy("body", {
+//     scrollTop(value) {
+//         return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
+//     },
+//     getBoundingClientRect() {
+//         return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
+//     },
+//     pinType: document.querySelector("body").style.transform ? "transform" : "fixed"
+// });
+// ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+// ScrollTrigger.refresh();
 
-let innercursor = document.querySelector(".inner-cursor");
-let outercursor = document.querySelector(".outer-cursor");
-document.addEventListener("mousemove",(e)=>{
-    let xCor = e.clientX;
-    let yCor = e.clientY;
-    outercursor.style.left = `${xCor}px`;
-    outercursor.style.top = `${yCor}px`;
-})
+// let innercursor = document.querySelector(".inner-cursor");
+// let outercursor = document.querySelector(".outer-cursor");
+// document.addEventListener("mousemove",(e)=>{
+//     let xCor = e.clientX;
+//     let yCor = e.clientY;
+//     outercursor.style.left = `${xCor}px`;
+//     outercursor.style.top = `${yCor}px`;
+// })
 
 
 //random colours in the websites on each and every loading
@@ -80,6 +80,23 @@ else {
     newVal = 12 - (value * per10px)
     document.querySelector(".intro").style.fontSize = `${newVal}px`;
 }
+// setTimeout(() => {
+    document.querySelector(".img-back").insertAdjacentHTML("afterbegin",`<div class="right-eye">
+<div class="shut shut-left">
+  <span></span>
+</div>
+<div class="ball">
+</div>
+</div>`);
+document.querySelector(".img-back").insertAdjacentHTML("beforeend",`<div class="left-eye">
+<div class="shut">
+<span></span>
+</div>
+<div class="ball">
+</div>
+</div>`)
+// },8000)
+
 
 if (width < 800) {
     document.querySelector(".intro").remove();
@@ -172,11 +189,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 duration: .5,
                 stagger: .2,
             })
-            tm.from(".side-deco", {
-                opacity: 0,
-                duration: 1,
-                stagger: .5,
-                y: -200
+            tm.from(".right-eye,.left-eye",{
+                opacity : 0,
+                duration: 1
             })
         }
         else {
@@ -224,7 +239,6 @@ document.addEventListener("scroll", () => {
 
 let experienceTimeline = gsap.timeline();
 
-
 experienceTimeline.from(".logo",{
     x: -100,
     stagger: 1,
@@ -261,34 +275,6 @@ experienceTimeline.from(".experience .ex-range",{
         scrub: true
     }
 })
-
-
-// gsap.from("", {
-//     x: -1000,
-//     stagger: 1,
-//     duration: 1,
-//     opacity: 0,
-//     scrollTrigger: {
-//         trigger: ".experiences",
-//         scroll: "body",
-//         start: "top 60%", end: "bottom 90%",
-//         scrub: true
-//     }
-// })
-// gsap.from("", {
-//     width: -0,
-//     stagger: 1,
-//     duration: 1,
-//     opacity: 0,
-//     scrollTrigger: {
-//         trigger: ".experiences",
-//         scroll: "body",
-//         start: "top 60%", end: "bottom 90%",
-//         scrub: true
-//     }
-// })
-
-
 
 gsap.from(".project", {
     y: -100,
