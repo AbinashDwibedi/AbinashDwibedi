@@ -231,7 +231,7 @@ a[class="top-link"]:hover {
 .intro {
     user-select: none;
     /* background-image: linear-gradient(to left top, rgb(0 0 0), #001247); */
-    background-image: linear-gradient(to left top, rgb(0 0 0), #001247);
+    background-image: linear-gradient(to left top, rgb(0 0 0),var(--uni-color-1);
     /* background-image: url(background.jpg); */
     background-position: right;
     width: 100%;
