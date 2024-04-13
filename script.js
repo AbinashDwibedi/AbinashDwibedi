@@ -53,13 +53,16 @@ function randomColor() {
 }
 
 let documentElement = document.documentElement;
-documentElement.style.setProperty("--uni-color-1",randomColor() )
+let clrs1 = randomColor();
+documentElement.style.setProperty("--uni-color-1",clrs1 )
+
 document.querySelector(".cl-change").style.color = randomColor();
 document.querySelector(".heading-main").style.color = randomColor();
-let clrs = randomColor();
+let clrs2 = randomColor();
 Array.from(document.querySelectorAll(".side-deco")).forEach(e =>{
-    e.style.background = clrs;
+    e.style.background = clrs2;
 });
+documentElement.style.setProperty("--body-background" , `linear-gradient(to left top, ${clrs1},black)`);
 
 let loadBox = document.querySelectorAll(".loader-boxs");
 let loader = document.querySelector(".loader");
@@ -165,10 +168,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 y: 100,
                 duration: .5,
                 stagger: .2,
-            })
-            tm.from(".right-eye,.left-eye",{
-                opacity : 0,
-                duration: 1
             })
         }
         else {

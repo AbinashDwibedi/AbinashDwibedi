@@ -52,13 +52,14 @@ html {
 /* started */
 
 body {
-    /* background-color: #d1ccc5; */
     scrollbar-gutter: stable both-edges;
     /* background-image: linear-gradient(to left top, rgb(8 9 12), #08090c); */
     background-image: var(--body-background);
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-attachment: fixed;
+    background-color: black;
+    background-blend-mode: hard-light;
 }
 
 .loader {
@@ -654,6 +655,7 @@ a[class="top-link"]:hover {
     position: relative;
     height: 25.6rem;
 }
+
 .project:hover > .project-link{
     background: #0a0c11;font-size: 20px;
     transition: .2s linear background;
