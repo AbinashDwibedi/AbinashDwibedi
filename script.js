@@ -1,4 +1,6 @@
 
+
+// alert("Reload to see different color scheme's")
 // const scroll = new LocomotiveScroll({
 //     el: document.querySelector('body'),
 //     smooth: true
@@ -52,7 +54,8 @@ function randomColor() {
     return `rgb(${a},${b},${c})`
 }
 
-let documentElement = document.documentElement;
+let colorScript = () =>{
+    let documentElement = document.documentElement;
 let clrs1 = randomColor();
 documentElement.style.setProperty("--uni-color-1",clrs1 )
 
@@ -63,6 +66,11 @@ Array.from(document.querySelectorAll(".side-deco")).forEach(e =>{
     e.style.background = clrs2;
 });
 documentElement.style.setProperty("--body-background" , `linear-gradient(to left top, ${clrs1},black)`);
+}
+document.querySelector(".change-cl-scheme").addEventListener("click",()=>{
+    colorScript();
+})
+colorScript();
 
 let loadBox = document.querySelectorAll(".loader-boxs");
 let loader = document.querySelector(".loader");

@@ -36,8 +36,8 @@ html {
 
 }
 :root{
-    --body-background : linear-gradient(to left top, rgb(8 9 12), #08090c);
-    --uni-color-1: RGB(0, 255, 0);
+    --body-background : linear-gradient(to left top, rgb(209,0,255), #08090c);
+    --uni-color-1: rgb(209,0,255);
 }
 * {
     margin: 0;
@@ -60,6 +60,7 @@ body {
     background-attachment: fixed;
     background-color: black;
     background-blend-mode: hard-light;
+    transition: background .3s linear;
 }
 
 .loader {
@@ -401,6 +402,26 @@ a[class="top-link"]:hover {
 }
 /* for mobile phones */
 
+.change-cl-scheme{
+    height: 40px;
+    width: 40px;
+    background-image: linear-gradient(to left,cyan,lime ,red,blue,green,yellow);
+    background-color: red;
+    border-radius: 30px;
+    outline: 3px solid white;
+    outline-offset: 2px;
+    background-size: 1000%;
+    animation: bg-size 2s linear .3s infinite ;
+    animation-direction: alternate-reverse;
+}
+@keyframes bg-size {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
 
 .intro-mobile {
 
