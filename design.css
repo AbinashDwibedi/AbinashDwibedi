@@ -351,6 +351,7 @@ a[class="top-link"]:hover {
     font-size: 1.3em;
     color: var(--uni-color-1);
     line-height: 1.5em;
+    text-shadow: 3px 3px 1px black;
 }
 .heading-para ,.experience-about{
     font-family: new-2;
