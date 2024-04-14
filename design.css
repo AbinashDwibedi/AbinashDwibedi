@@ -280,6 +280,19 @@ a[class="top-link"]:hover {
     flex-direction: column;
     height: calc(100vh - 2em - 1.2em);
     margin-bottom: 1.2em;
+    position: relative;
+}
+.quote-box{
+        /* position: absolute; */
+    /* top: 60px; */
+    font-size: 1.5em;
+    text-align: right;
+    width: 80%;
+    margin-bottom: 1em;
+    font-family: 'new-2';
+}
+.quote{
+    /* opacity: 0; */
 }
 .heading-logo {
     height: 45em;
@@ -541,9 +554,9 @@ a[class="top-link"]:hover {
     width: 100%;
 }
 .small-circle {
-    height: 6rem;
+    height: 3rem;
     position: relative;
-    width: 2rem;
+    width: 8rem;
     background: black;
     border-radius: 2rem;
     z-index: 2;

@@ -182,6 +182,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 duration: .5,
                 stagger: .2,
             })
+            tm.from(".quote-box,.quote",{
+                opacity:0,
+                duration:1,
+                stagger:1,
+                y:100
+            })
+            
         }
         else {
             let tm_mob = gsap.timeline();
@@ -209,6 +216,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 duration: .5,
                 stagger: .2,
             })
+            
         }
 
 
@@ -279,4 +287,3 @@ gsap.from(".project", {
         scrub: true
     }
 })
-
