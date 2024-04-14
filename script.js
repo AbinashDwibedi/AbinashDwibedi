@@ -82,7 +82,7 @@ let loading = document.querySelector(".loading");
     let value, per10px, newVal;
     if (width > 1100) {
         value = (width - 1100) / 10;
-        per10px = .05;
+        per10px = .06;
         newVal = (value * per10px) + 12;
         document.querySelector(".intro").style.fontSize = `${newVal}px`;
     }
@@ -274,9 +274,7 @@ experienceTimeline.from(".experience .ex-range",{
 })
 
 gsap.from(".project", {
-    y: -100,
-    x: -100,
-    rotateZ: "15deg",
+    y: 100,
     duration: 1,
     stagger: .5,
     opacity: 0,
