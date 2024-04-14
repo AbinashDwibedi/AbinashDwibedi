@@ -404,16 +404,17 @@ a[class="top-link"]:hover {
 /* for mobile phones */
 
 .change-cl-scheme{
-    height: 40px;
-    width: 40px;
-    background-image: linear-gradient(to left,cyan,lime ,red,blue,green,yellow);
+    height: 30px;
+    width: 30px;
+    background-image: linear-gradient(to left, cyan, lime, red, blue, green, yellow);
     background-color: red;
-    border-radius: 30px;
+    border-radius: 3px;
     outline: 3px solid white;
     outline-offset: 2px;
     background-size: 1000%;
-    animation: bg-size 2s linear .3s infinite ;
+    animation: bg-size 2s linear .3s infinite;
     animation-direction: alternate-reverse;
+    cursor:pointer;
 }
 @keyframes bg-size {
     0%{
