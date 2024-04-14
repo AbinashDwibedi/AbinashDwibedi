@@ -12,7 +12,7 @@
     src: url("NinjaNaruto-YOn4.ttf");
 }
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -61,6 +61,7 @@ body {
     background-color: black;
     background-blend-mode: hard-light;
     transition: background .3s linear;
+    /* overflow: hidden; */
 }
 
 .loader {
