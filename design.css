@@ -520,7 +520,7 @@ a[class="top-link"]:hover {
 
 /* headings */
 .span-heading {
-    color: white;
+    color: var(--uni-color-1);
     background: black;
     padding: 1rem;
     border-radius: 3rem;

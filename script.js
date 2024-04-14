@@ -25,6 +25,7 @@
 // ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 // ScrollTrigger.refresh();
 
+
 let innercursor = document.querySelector(".inner-cursor");
 let outercursor = document.querySelector(".outer-cursor");
 document.addEventListener("mousemove",(e)=>{
@@ -75,21 +76,25 @@ colorScript();
 let loadBox = document.querySelectorAll(".loader-boxs");
 let loader = document.querySelector(".loader");
 let loading = document.querySelector(".loading");
-let width = window.innerWidth
-let value, per10px, newVal;
-if (width > 1100) {
-    value = (width - 1100) / 10;
-    per10px = .05;
-    newVal = (value * per10px) + 12;
-    document.querySelector(".intro").style.fontSize = `${newVal}px`;
-}
-else {
-    value = (1100 - width) / 10;
-    per10px = .107;
-    console.log(value)
-    newVal = 12 - (value * per10px)
-    document.querySelector(".intro").style.fontSize = `${newVal}px`;
-}
+
+
+    let width = window.innerWidth
+    let value, per10px, newVal;
+    if (width > 1100) {
+        value = (width - 1100) / 10;
+        per10px = .05;
+        newVal = (value * per10px) + 12;
+        document.querySelector(".intro").style.fontSize = `${newVal}px`;
+    }
+    else {
+        value = (1100 - width) / 10;
+        per10px = .107;
+        console.log(value)
+        newVal = 12 - (value * per10px)
+        document.querySelector(".intro").style.fontSize = `${newVal}px`;
+    }
+
+
 
 if (width < 800) {
     document.querySelector(".intro").remove();
