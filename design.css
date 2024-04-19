@@ -38,6 +38,7 @@ html {
 :root{
     --body-background : linear-gradient(to left top, rgb(209,0,255), #08090c);
     --uni-color-1: rgb(209,0,255);
+    --box-shadow:0px 0px 0px .3rem var(--uni-color-1),0px 0px 1rem var(--uni-color-1),0px 0px 2rem var(--uni-color-1);
 }
 * {
     margin: 0;
@@ -53,8 +54,8 @@ html {
 
 body {
     scrollbar-gutter: stable both-edges;
-    /* background-image: linear-gradient(to left top, rgb(8 9 12), #08090c); */
-    background-image: var(--body-background);
+    background-image: linear-gradient(to left top, rgb(8 9 12), #08090c);
+    /* background-image: var(--body-background); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -381,8 +382,9 @@ a[class="top-link"]:hover {
     margin: 1.2em 0px;
     padding: 1em 1.6em;
     border-radius: 3em;
-    border-bottom: 2px solid var(--uni-color-1);
+    /* border-bottom: 2px solid var(--uni-color-1); */
     background: #0a0c11;
+    box-shadow: 0px 0px 0px .2em var(--uni-color-1), 0px 0px 1em var(--uni-color-1), 0px 0px 3em var(--uni-color-1);
 }
 
 .heading-main {
@@ -535,10 +537,11 @@ a[class="top-link"]:hover {
 .span-heading {
     color: var(--uni-color-1);
     background: black;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 3rem;
     z-index: 2;
-    border: 0.3rem solid var(--uni-color-1);
+    /* border: 0.3rem solid var(--uni-color-1); */
+    box-shadow: var(--box-shadow);
     font-size: 3.5rem;
     font-family: 'Russo One', sans-serif;
 }
@@ -546,12 +549,12 @@ a[class="top-link"]:hover {
     text-align: center;
     display: flex;
     align-items: center;
-    margin: 4rem 0rem;
+    margin: 6rem 0rem;
     position: relative;
     justify-content: center;
     width: 100%;
 }
-.small-circle {
+/* .small-circle {
     height: 3rem;
     position: relative;
     width: 8rem;
@@ -560,7 +563,8 @@ a[class="top-link"]:hover {
     z-index: 2;
     border: 0.3rem solid var(--uni-color-1);
     margin: 0 1rem;
-}
+    box-shadow: var(--box-shadow);
+} */
 
 .experiences {
     display: flex; 
@@ -570,19 +574,21 @@ a[class="top-link"]:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     place-content: center;
+    margin: 0 3rem;
 }
 
 .experience-div {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     overflow: hidden;
     margin: 10px;
     flex-direction: column;
-    flex: 0 1 31rem;
+    
     /* border: 3px solid var(--uni-color-1); */
     border-radius: 4rem;
     padding:2rem 1rem;
+
 }
 
 .logo {
@@ -613,11 +619,9 @@ a[class="top-link"]:hover {
 .projec {
     /* width: 500%; */
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 3rem;
 
-}
-.projects {
-    margin: 10px;
 }
 
 .project-head,.my-experiences {
@@ -682,39 +686,44 @@ a[class="top-link"]:hover {
     background-color: red;
 }
 .project {
-    border: .3rem solid var(--uni-color-1);
     background-color: rgb(0, 0, 0);
-    margin: 1rem .5rem;
-    border-radius: 23px;
+    margin: 1.5rem 1.5rem;
+    border-radius: 3rem;
     position: relative;
-    height: 25.6rem;
+    height: 25rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px .3rem var(--uni-color-1);
+    transition: .2s linear background;
 }
 
 .project:hover > .project-link{
     background: #0a0c11;font-size: 20px;
     transition: .2s linear background;
 }
+.project:hover {
+    box-shadow: var(--box-shadow);
+    transition: .1s linear box-shadow;
+}
 .project-link{
     display: block;
     position: absolute;
-    height: 24rem;
+    height: 25rem;
     border-radius: 15px;
-    inset: .5rem;
+    inset:0rem;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0;
-    transition: .3s linear background;
+    transition: .2s linear background;
     width: calc(100% - 1rem);
+    width: 100%;
 }
 
 .project-img {
     height: 25rem;
     width: 100%;
     object-fit: cover;
-    border-radius: 23px;
-    padding: .5rem;
     
 }
 
@@ -730,4 +739,5 @@ a[class="top-link"]:hover {
     align-items: center;
     justify-content: center;
     font-size: 15px;
+    box-shadow: var(--box-shadow);
 }

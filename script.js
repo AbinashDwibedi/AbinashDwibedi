@@ -1,6 +1,5 @@
 
 
-// alert("Reload to see different color scheme's")
 // const scroll = new LocomotiveScroll({
 //     el: document.querySelector('body'),
 //     smooth: true
@@ -71,7 +70,6 @@ documentElement.style.setProperty("--body-background" , `linear-gradient(to left
 document.querySelector(".change-cl-scheme").addEventListener("click",()=>{
     colorScript();
 })
-colorScript();
 
 let loadBox = document.querySelectorAll(".loader-boxs");
 let loader = document.querySelector(".loader");
@@ -237,7 +235,7 @@ document.addEventListener("scroll", () => {
 let experienceTimeline = gsap.timeline();
 
 experienceTimeline.from(".logo",{
-    x: -100,
+    font:0,
     stagger: 1,
     duration: 1,
     opacity: 0,
@@ -260,6 +258,17 @@ experienceTimeline.from(".experience-about",{
         scrub: true
     }
 })
+experienceTimeline.from(".ex-name",{
+    stagger: 1,
+    duration: 1,
+    opacity: 0,
+    scrollTrigger: {
+        trigger: ".experiences",
+        scroll: "body",
+        start: "top 50%", end: "bottom 90%",
+        scrub: true
+    }
+})
 experienceTimeline.from(".experience .ex-range",{
     x: -500,
     stagger: 1,
@@ -275,13 +284,15 @@ experienceTimeline.from(".experience .ex-range",{
 
 gsap.from(".project", {
     y: 100,
-    duration: 1,
-    stagger: .5,
+    x: -100,
+    rotateZ: "15deg",
+    duration: 2,
+    stagger: 2,
     opacity: 0,
     scrollTrigger: {
         trigger: ".projec",
         scroll: "body",
-        start: "top 60%", end: "bottom 90%",
+        start: "top 80%", end: "bottom 90%",
         scrub: true
     }
 })
