@@ -270,7 +270,8 @@ experienceTimeline.from(".ex-name",{
     }
 })
 experienceTimeline.from(".experience .ex-range",{
-    x: -500,
+    // x: -500,
+    width:0,
     stagger: 1,
     duration: 1,
     opacity: 0,
