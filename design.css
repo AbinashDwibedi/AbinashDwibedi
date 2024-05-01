@@ -36,8 +36,8 @@ html {
 
 }
 :root{
-    --body-background : linear-gradient(to left top, rgb(209,0,255), #08090c);
-    --uni-color-1: rgb(209,0,255);
+    --body-background : linear-gradient(to left top, rgb(0,255,58), #08090c);
+    --uni-color-1: rgb(0,255,58);
     --box-shadow:0px 0px 0px .3rem var(--uni-color-1),0px 0px 1rem var(--uni-color-1),0px 0px 2rem var(--uni-color-1),0px 0px 4rem var(--uni-color-1);
 }
 * {
