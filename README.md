@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 # Hi there! I'm Abinash Dwibedi 👋
 
-Welcome to my GitHub profile! I'm a passionate [Your Profession or Title] with experience in various technologies and a love for coding and problem-solving. Here you'll find a collection of my projects, contributions, and more about what I'm working on.
+Welcome to my GitHub profile! I'm a passionate programmer and embedded systems enthusiast with experience in various technologies and a love for coding and problem-solving. Here you'll find a collection of my projects, contributions, and more about what I'm working on.
 
 ## 🔧 Technologies & Tools
 
