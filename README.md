@@ -14,8 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-![Header](https://plus.unsplash.com/premium_photo-1678565879444-f87c8bd9f241?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y29kaW5nJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D)
+![Header](https://img.freepik.com/free-photo/workplace-business-modern-male-accessories-laptop-black-background_155003-3944.jpg?size=626&ext=jpg&ga=GA1.1.1993730573.1722411552&semt=ais_hybrid)
+<!-- ![Header](https://img.freepik.com/free-photo/motherboard-background_23-2151733819.jpg?size=626&ext=jpg&ga=GA1.1.1993730573.1722411552&semt=ais_hybrid) -->
 
 
 
@@ -62,7 +62,7 @@ Welcome to my GitHub profile! I'm a passionate programmer and embedded systems e
 
 ## 📈 GitHub Stats
 
-![Your Name's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AbinashDwibedi&show_icons=true&hide_title=true&hide=prs&count_private=true&hide_rank=false&hide_border=true&bg_color=ffffff&text_color=333333&icon_color=586069&title_color=0366d6)
+![Your Name's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AbinashDwibedi&show_icons=true&hide_title=true&hide=prs&count_private=true&hide_rank=false&hide_border=true&bg_color=000000&text_color=ffffff&icon_color=586069&title_color=0366d6)
 
 ## 🛠️ Currently Working On
 
@@ -76,17 +76,20 @@ Welcome to my GitHub profile! I'm a passionate programmer and embedded systems e
 
 ## 🤝 Connect With Me
 
-- [LinkedIn](https://www.linkedin.com/in/abinash-dwibedi-a658b6241)
-- [Website](https://abinashdwibedi.github.io/AbinashDwibedi)
-- [Youtube](https://www.youtube.com/@AbinashDwibedi)
+You can find me on:
 
-## 🚀 Fun Fact
+- [**🔗 LinkedIn**](https://www.linkedin.com/in/abinash-dwibedi-a658b6241) – Connect with me professionally and see my career journey.
+- [**🌐 Personal Website**](https://abinashdwibedi.github.io/AbinashDwibedi) – Explore my portfolio and learn more about my projects.
+- [**📹 YouTube Channel**](https://www.youtube.com/@AbinashDwibedi) – Watch my latest videos and tutorials on tech topics.
 
-Did you know that I ? 😄
+
+<!--## 🚀 Fun Fact
+
+Did you know that I ? 😄-->
 
 ---
 
 _Thanks for visiting my profile! Feel free to reach out if you have any questions or just want to chat about tech._
 
-![Footer](https://via.placeholder.com/1200x100?text=Have+a+great+day!+😊)
+![Footer](https://via.placeholder.com/1200x100/000000/fff?text=Have+a+great+day!)
 
