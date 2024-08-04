@@ -14,8 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Header](https://img.freepik.com/free-photo/workplace-business-modern-male-accessories-laptop-black-background_155003-3944.jpg?size=426&ext=jpg&ga=GA1.1.1993730573.1722411552&semt=ais_hybrid)
-<!-- ![Header](https://img.freepik.com/free-photo/motherboard-background_23-2151733819.jpg?size=626&ext=jpg&ga=GA1.1.1993730573.1722411552&semt=ais_hybrid) -->
+<!--![Header](https://img.freepik.com/free-photo/workplace-business-modern-male-accessories-laptop-black-background_155003-3944.jpg?size=426&ext=jpg&ga=GA1.1.1993730573.1722411552&semt=ais_hybrid)-->
+ ![Header](https://img.freepik.com/free-photo/motherboard-background_23-2151733819.jpg?size=626&ext=jpg&ga=GA1.1.1993730573.1722411552&semt=ais_hybrid) 
 
 
 
