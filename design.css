@@ -62,8 +62,15 @@ body {
     background-color: black;
     background-blend-mode: hard-light;
     transition: background .3s linear;
+    overflow-x:  hidden;
     /* overflow: hidden; */
 }
+#backgroundCanvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 .loader {
     height: 100vh;
@@ -239,7 +246,7 @@ a[class="top-link"]:hover {
 .intro {
     user-select: none;
     /* background-image: linear-gradient(to left top, rgb(0 0 0), #001247); */
-    background-image: linear-gradient(to left top, rgb(0 0 0),var(--uni-color-1));
+    /* background-image: linear-gradient(to left top, rgb(0 0 0),var(--uni-color-1)); */
     /* background-image: url(background.jpg); */
     background-position: right;
     width: 100%;
@@ -249,7 +256,7 @@ a[class="top-link"]:hover {
     padding: 1em;
     /* text-align: center; */
     background-blend-mode: darken;
-    background-color: #00000078;
+    /* background-color: #00000078; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,12 +308,12 @@ a[class="top-link"]:hover {
     height: 45em;
     border-radius: 100%;
     z-index: 2;
-    filter: drop-shadow(0px 0px 8rem white);
-    animation: DropShadow 2s linear infinite .1s;
+    filter: drop-shadow(0px 0px 5rem black);
+    /* animation: DropShadow 2s linear infinite .1s; */
     position: absolute;
     bottom: -24em;
 }
-@keyframes DropShadow {
+/* @keyframes DropShadow {
     0% {
         filter: drop-shadow(0px 0px 1rem black);
     }
@@ -318,7 +325,7 @@ a[class="top-link"]:hover {
     100% {
         filter: drop-shadow(0px 0px 1rem black);
     }
-}
+} */
 
 .img-back {
     border-radius: 100%;
@@ -388,7 +395,8 @@ a[class="top-link"]:hover {
     border-radius: 3em;
     /* border-bottom: 2px solid var(--uni-color-1); */
     background: #0a0c11;
-    box-shadow: 0px 0px 0px .2em var(--uni-color-1), 0px 0px 1em var(--uni-color-1), 0px 0px 3em var(--uni-color-1);
+    box-shadow: 0px 0px 0px .2em var(--uni-color-1);
+    /* , 0px 0px 1em var(--uni-color-1), 0px 0px 3em var(--uni-color-1) */
 }
 
 .heading-main {
@@ -444,7 +452,7 @@ a[class="top-link"]:hover {
 
 .intro-mobile {
 
-    background-image: linear-gradient(to left top, rgb(0 0 0), #001247);
+    /* background-image: linear-gradient(to left top, rgb(0 0 0), #001247); */
     /* background-image: url("background.jpg"); */
     background-position: right;
     width: 100%;
@@ -454,7 +462,7 @@ a[class="top-link"]:hover {
     padding: 10px;
     text-align: center;
     background-blend-mode: darken;
-    background-color: #00000078;
+    /* background-color: #00000078; */
     display: flex;
     justify-content: center;
     align-items: center;
