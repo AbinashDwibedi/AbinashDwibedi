@@ -33,7 +33,7 @@ html {
     font-size: 10px;
     font-family: new-1;
     scroll-behavior: smooth;
-
+    cursor: none;
 }
 :root{
     --body-background : linear-gradient(to left top, rgb(0,255,58), #08090c);
@@ -127,13 +127,17 @@ body {
     border-radius: 50%;
     z-index: 40;
     inset: 2px;
-    mix-blend-mode: difference;
-    background-color: rgb(243, 243, 236);
-    animation: rotate-in 1s linear .3s infinite forwards ;
+    /* mix-blend-mode: difference; */
+    /* background-color: rgb(243, 243, 236); */
+    /* animation: rotate-in 1s linear .3s infinite forwards ; */
+}
+.inner-cursor .custom-cursor{
+    height: 40px;
+    width: 40px;
 }
 .outer-cursor{
-    border: 3px solid rgb(255, 255, 255);
-    mix-blend-mode: difference;
+    /* border: 3px solid rgb(255, 255, 255); */
+    /* mix-blend-mode: difference; */
     position: fixed;
     height: 40px;
     width: 40px;
@@ -141,7 +145,7 @@ body {
     border-radius: 50%;
     z-index: 40;
     transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%) rotateZ(200deg);
+    /* transform: translate(-50%, -50%) rotateZ(200deg); */
 }
 @keyframes animate {
     0% {
