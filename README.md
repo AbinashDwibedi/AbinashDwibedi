@@ -55,24 +55,12 @@ Welcome to my GitHub profile! I'm a passionate programmer and embedded systems e
 - ![Webpack](https://img.shields.io/badge/webpack-8DD6F9?style=flat&logo=webpack&logoColor=black)
 
 
-## 🌟 My Top Projects
-
-- **[Project 1](https://github.com/AbinashDwibedi/eComm)**: It's a modern looking shopping app.
-
 
 ## 📈 GitHub Stats
 
 ![Your Name's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AbinashDwibedi&show_icons=true&hide_title=true&hide=prs&count_private=true&hide_rank=false&hide_border=true&bg_color=000000&text_color=ffffff&icon_color=586069&title_color=0366d6)
 
-## 🛠️ Currently Working On
 
-- **Project A**: working on a chat app.
-<!-- - **Project B**: Description of another ongoing project. -->
-
-<!-- ## 📝 Blog & Articles
-
-- [How I Built X with Y](https://medium.com/@your_username/how-i-built-x-with-y)
-- [The Future of Z: What to Expect](https://medium.com/@your_username/the-future-of-z-what-to-expect) -->
 
 ## 🤝 Connect With Me
 
