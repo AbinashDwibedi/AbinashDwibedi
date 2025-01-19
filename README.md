@@ -16,6 +16,9 @@ Welcome to my GitHub profile! I'm a passionate programmer and embedded systems e
 - ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
 - ![C](https://img.shields.io/badge/-C-black?style=flat&logo=c&logoColor=white)
 - ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+- ![Verilog](https://img.shields.io/badge/Verilog-000000?style=flat&logo=verilog&logoColor=white)
 
 **Frontend:**
 - ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
@@ -23,11 +26,13 @@ Welcome to my GitHub profile! I'm a passionate programmer and embedded systems e
 - ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
 - ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
 - ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=greensock&logoColor=white)
+- ![Tailwind](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white)
 
 **Backend:**
 - ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 - ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 - ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring&logoColor=white) ![Learning](https://img.shields.io/badge/Currently%20Learning-blue?style=flat&logo=education&logoColor=white)
+- ![EJS](https://img.shields.io/badge/EJS-7A7B7B?style=flat&logo=ejs&logoColor=white)
 
 **Database:**
 - ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
@@ -39,6 +44,7 @@ Welcome to my GitHub profile! I'm a passionate programmer and embedded systems e
 - ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 - ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 - ![Webpack](https://img.shields.io/badge/webpack-8DD6F9?style=flat&logo=webpack&logoColor=black)
+- ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-764ABC?style=flat&logo=redux&logoColor=white)
 
 
 
