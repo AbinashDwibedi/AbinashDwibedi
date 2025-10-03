@@ -1,75 +1,89 @@
+<p align="center">
+  <img src="https://res.cloudinary.com/ddka5rc8z/image/upload/v1737297225/ailodultp9xshmecexpb.gif" width="100%">
+</p>
 
-
-<!--![Header](https://img.freepik.com/free-photo/workplace-business-modern-male-accessories-laptop-black-background_155003-3944.jpg?size=426&ext=jpg&ga=GA1.1.1993730573.1722411552&semt=ais_hybrid)-->
- ![Header](https://res.cloudinary.com/ddka5rc8z/image/upload/v1737297225/ailodultp9xshmecexpb.gif) 
-
-
+<div align="center">
 
 # Hi there! I'm Abinash Dwibedi 👋
 
-Welcome to my GitHub profile! I'm a passionate programmer and embedded systems enthusiast with experience in various technologies and a love for coding and problem-solving. Here you'll find a collection of my projects, contributions, and more about what I'm working on.
+<a href="https://github.com/AbinashDwibedi">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=87CEEB&center=true&vCenter=true&width=435&lines=Embedded+Systems+Enthusiast;Full-Stack+Developer;Creative+Problem-Solver" alt="Typing Animation">
+</a>
 
-## 🔧 Technologies & Tools
+<p align="center">
+  <a href="https://komarev.com/ghpvc/?username=AbinashDwibedi">
+    <img src="https://komarev.com/ghpvc/?username=AbinashDwibedi&color=blueviolet&style=flat-square" alt="Profile views">
+  </a>
+</p>
 
-**Languages:**
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-- ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
-- ![C](https://img.shields.io/badge/-C-black?style=flat&logo=c&logoColor=white)
-- ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
-- ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-- ![Verilog](https://img.shields.io/badge/Verilog-000000?style=flat&logo=verilog&logoColor=white)
+Welcome to my corner of GitHub! I'm a passionate programmer with a love for building innovative solutions and turning ideas into reality.
 
-**Frontend:**
-- ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-- ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) ![Learning](https://img.shields.io/badge/Currently%20Learning-blue?style=flat&logo=education&logoColor=white)
-- ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
-- ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
-- ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=greensock&logoColor=white)
-- ![Tailwind](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white)
-
-**Backend:**
-- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-- ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-- ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring&logoColor=white) ![Learning](https://img.shields.io/badge/Currently%20Learning-blue?style=flat&logo=education&logoColor=white)
-- ![EJS](https://img.shields.io/badge/EJS-7A7B7B?style=flat&logo=ejs&logoColor=white)
-
-**Database:**
-- ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-- ![Mongoose](https://img.shields.io/badge/Mongoose-8800FF?style=flat&logo=mongoose&logoColor=white)
-- ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat&logo=mysql&logoColor=white)
-
-**Design & Tools:**
-- ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-- ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-- ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-- ![Webpack](https://img.shields.io/badge/webpack-8DD6F9?style=flat&logo=webpack&logoColor=black)
-- ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-764ABC?style=flat&logo=redux&logoColor=white)
-
-
-
-## 📈 GitHub Stats
-
-![Your Name's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AbinashDwibedi&show_icons=true&hide_title=true&hide=prs&count_private=true&hide_rank=false&hide_border=true&bg_color=000000&text_color=ffffff&icon_color=586069&title_color=0366d6)
-
-
-
-## 🤝 Connect With Me
-
-You can find me on:
-
-- [**🔗 LinkedIn**](https://www.linkedin.com/in/abinash-dwibedi-a658b6241) – Connect with me professionally and see my career journey.
-- [**🌐 Personal Website**](https://abinashdwibedi.github.io/AbinashDwibedi) – Explore my portfolio and learn more about my projects.
-- [**📹 YouTube Channel**](https://www.youtube.com/@AbinashDwibedi) – Watch my latest videos and tutorials on tech topics.
-
-
-<!--## 🚀 Fun Fact
-
-Did you know that I ? 😄-->
+</div>
 
 ---
 
-_Thanks for visiting my profile! Feel free to reach out if you have any questions or just want to chat about tech._
+<h2 align="center">🚀 My Tech Stack</h2>
 
-![Footer](https://via.placeholder.com/1200x100/000000/fff?text=Have+a+great+day!)
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/-C-black?style=for-the-badge&logo=c&logoColor=white" alt="C">
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino">
+  <img src="https://img.shields.io/badge/Verilog-000000?style=for-the-badge&logo=verilog&logoColor=white" alt="Verilog">
+  <br>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" alt="GSAP">
+  <br>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <br>
+  <img src="https://img.shields.io/badge/Redux%20Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux Toolkit">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
+</p>
+
+---
+
+<h2 align="center">📊 My GitHub Stats</h2>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AbinashDwibedi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Abinash's GitHub Stats">
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbinashDwibedi&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
+  <br>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbinashDwibedi&theme=tokyonight&hide_border=true" alt="GitHub Streak">
+</p>
+
+---
+
+<h2 align="center">🤝 Let's Connect</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/abinash-dwibedi-a658b6241" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://abinashdwibedi.github.io/AbinashDwibedi" target="_blank">
+    <img src="https://img.shields.io/badge/Website-4B0082?style=for-the-badge&logo=About.me&logoColor=white" alt="Personal Website">
+  </a>
+  <a href="https://www.youtube.com/@AbinashDwibedi" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+  </a>
+</p>
+
+---
+
+<p align="center">
+  _Thanks for stopping by! Feel free to reach out if you want to collaborate on a project or just chat about tech._
+</p>
+
+
 
