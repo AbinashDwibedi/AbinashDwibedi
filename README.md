@@ -102,7 +102,7 @@ I specialize in bridging the gap between low-level hardware and high-level web a
 <h2 align="center">🤝 Let's Connect</h2>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/abinash-dwibedi-a658b6241" target="_blank">
+  <a href="https://www.linkedin.com/in/abinash-dwibedi" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://abinashdwibedi.github.io/AbinashDwibedi" target="_blank">
