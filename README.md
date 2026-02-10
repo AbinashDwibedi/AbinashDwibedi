@@ -1,6 +1,6 @@
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/AbinashDwibedi/AbinashDwibedi/blob/main/video.gif" width="80%" alt="Banner">
-</p>
+</p> -->
 
 <div align="center">
 
