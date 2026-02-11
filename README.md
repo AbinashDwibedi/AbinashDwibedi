@@ -11,11 +11,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=fffff&center=true&vCenter=true&width=500&lines=Full-Stack+MERN+Developer;Python+%26+Systems+Programming;Competitive+Programming+Enthusiast;Building+Scalable+Software" alt="Typing Animation">
 </a>
 
-<p align="center">
-  <a href="https://komarev.com/ghpvc/?username=AbinashDwibedi">
-    <img src="https://komarev.com/ghpvc/?username=AbinashDwibedi&color=blueviolet&style=flat-square" alt="Profile views">
-  </a>
-</p>
+
 
 ---
 
@@ -97,7 +93,13 @@
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
   </a>
 </p>
-
+---
+<p align="center">
+  <a href="https://komarev.com/ghpvc/?username=AbinashDwibedi">
+    <img src="https://komarev.com/ghpvc/?username=AbinashDwibedi&color=blueviolet&style=flat-square" alt="Profile views">
+  </a>
+</p>
+---
 <p align="center">
   <i>"Always building, always learning."</i>
 </p>
