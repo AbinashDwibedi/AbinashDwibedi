@@ -24,7 +24,7 @@
 <table>
   <tr>
     <td width="60%" valign="top">
-      I am a Software Engineering student focused on building clean, efficient applications. I enjoy exploring the full lifecycle of software—from writing the first line of a React component to understanding how data travels through a socket. I am passionate about bridging complex logic with intuitive user experiences.
+      I am a Electronic's and Telecommunication Engineering student focused on building clean, efficient applications. I enjoy exploring the full lifecycle of software—from writing the first line of a React component to understanding how data travels through a socket. I am passionate about bridging complex logic with intuitive user experiences.
       <br><br>
       • 💻 <b>Software Focus:</b> Building robust full-stack applications with the MERN stack and Python.<br>
       • 🛠️ <b>Current Activity:</b> Deepening my knowledge in Data Structures, Algorithms, and System Design.<br>
