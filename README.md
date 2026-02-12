@@ -8,7 +8,7 @@
 **Electronics & Telecommunication Engineering Student | Software Engineer | Full-Stack Developer**
 
 <a href="https://github.com/AbinashDwibedi">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Full-Stack+MERN+Developer;Python+%26+Systems+Programming;Competitive+Programming+Enthusiast;Building+Scalable+Software" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Full-Stack+MERN+Developer;Python+%26+Systems+Programming;Competitive+Programmer;Building+Scalable+Software" alt="Typing Animation">
 </a>
 
 
