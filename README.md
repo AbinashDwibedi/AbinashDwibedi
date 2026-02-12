@@ -55,7 +55,7 @@
 ### ⚙️ Systems & Engineering Fundamentals
 * **Embedded Programming:** `Embedded C`, `Arduino`, `MPLAB`
 * **Hardware Design:** `Verilog`, `SystemVerilog`, `KiCAD`
-* **Core Concepts:** `Computer Networks`, `Socket Programming`, `DBMS`, `Operating Systems`
+* **Core Concepts:** `Computer Networks`, `Socket Programming`, `DBMS`
 
 ### 🔧 Tools, DevOps & Creativity
 * **DevOps & Hosting:** `Docker`, `Vercel`, `Git`, `GitHub`
