@@ -47,14 +47,14 @@
 ### 💻 Core Software Development (Primary)
 | Category | Technologies |
 | :--- | :--- |
-| **Languages** | `JavaScript`, `TypeScript`, `Python`, `C++`, `C` |
+| **Languages** | `JavaScript`, `TypeScript`, `Python`, `C++`, `C`, `java` |
 | **Frontend** | `React`, `Next.js`, `Redux Toolkit`, `Tailwind CSS`, `GSAP`, `Three.js`, `HTML5`, `CSS3` |
-| **Backend** | `Node.js`, `Express.js`, `EJS`, `JWT`, `Multer`, `Cloudinary` |
-| **Database** | `MongoDB`, `PostgreSQL`, `MySQL`, `Prisma`, `Mongoose`, `Firebase` |
+| **Backend** | `Node.js`, `Express.js`, `EJS`, `JWT`, `Multer`, `Cloudinary`, `Spring Boot` |
+| **Database** | `MongoDB`, `PostgreSQL`, `Hibernate ORM`, `Mongoose`, `Firebase` |
 
 ### ⚙️ Systems & Engineering Fundamentals
 * **Embedded Programming:** `Embedded C`, `Arduino`, `MPLAB`
-* **Hardware Design:** `Verilog`, `SystemVerilog`, `KiCAD`
+* **Hardware Design:** `Verilog`, `SystemVerilog`
 * **Core Concepts:** `Computer Networks`, `Socket Programming`, `DBMS`
 
 ### 🔧 Tools, DevOps & Creativity
